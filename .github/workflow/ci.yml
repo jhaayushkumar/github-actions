@@ -1,0 +1,19 @@
+name: standard CI 
+
+# trigger
+
+on: push
+
+jobs: 
+    build-test:
+      name: Build test and deploy
+      runs-on: ubuntu@latest
+
+      steps: 
+        - name: Checkout latest code
+          users: actions/checkout@v4
+
+          
+
+
+
